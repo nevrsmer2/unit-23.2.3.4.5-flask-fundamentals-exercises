@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Story Creater</title>
+  </head>
+  <body>
+    <h1>Create Your Story</h1>
+    <p>Input the following information to create your story.</p>
+    <form action="/story">
+      {% for prompt in prompts %}
+      <p>
+        {{ prompt }}:
+        <input name="{{ prompt }}" />
+      </p>
+      {% endfor %}
+      <input type="submit" value="Submit" />
+      <!-- <button>Submit</button> -->
+    </form>
+  </body>
+</html>
