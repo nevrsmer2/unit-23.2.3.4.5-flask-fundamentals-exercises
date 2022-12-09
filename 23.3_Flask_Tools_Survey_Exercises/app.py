@@ -3,7 +3,7 @@ from flask_debugtoolbar import DebugToolbarExtension
 from survey_instances import satisfaction_survey as survey
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = "never-tell!"
+app.config['SECRET_KEY'] = "KittiesRock!"
 app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
 debug = DebugToolbarExtension(app)
