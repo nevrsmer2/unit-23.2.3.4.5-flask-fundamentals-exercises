@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+
+.board {
+    border: solid 1px black;
+    font-size: 250%;
+}
+
+
+.board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.msg {
+    padding: 2em;
+}
+
+.high-score-plays {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+
+.current-score,
+.seconds-remaining {
+    font-size: 1.5em;
+    margin: 20px;
+}
+
+.text-input {
+    font-size: 30px;
+    margin: 20px;
+    height: 40px;
+    width: 175px;
+}
+
+.button {
+    font-size: 20px;
+    height: 35px;
+    width: 100px;
+}
+
+.msg.ok {
+    height: 35px;
+    color: white;
+    background-color: green;
+}
+
+.msg.err {
+    height: 35px;
+    color: white;
+    background-color: red;
+}
+
+li {
+    margin-top: 10px;
+    font-size: 25px;
+}
